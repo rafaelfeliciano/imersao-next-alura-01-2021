@@ -1,4 +1,5 @@
-//import db from '../../../db.json';
+import ReactLoading from 'react-loading';
+
 import Widget from '../../../src/components/Widget';
 import QuizLogo from '../../../src/components/QuizLogo';
 import QuizBackground from '../../../src/components/QuizBackground';
@@ -39,12 +40,17 @@ function LoadingWidget() {
     return (
         <Widget>
             <Widget.Header>
-                Carregando...
-      </Widget.Header>
+                Carregando
+            </Widget.Header>
 
             <Widget.Content>
-                [Desafio do Loading]
-      </Widget.Content>
+                <ReactLoading
+                    type='spin'
+                    color="#fff"
+                    height={'150px'}
+                    width={'150px'}
+                />
+            </Widget.Content>
         </Widget>
     );
 }
