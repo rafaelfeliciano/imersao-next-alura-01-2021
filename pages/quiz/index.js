@@ -122,6 +122,11 @@ function QuestionWidget({
                 htmlFor={alternativeId}
                 data-selected={isSelected}
                 data-status={isQuestionSubmited && alternativeStatus}
+                style={
+                  isSelected ?
+                    { border: '1px solid #29b6f6aa' } :
+                    null
+                }
               >
                 <input
                   style={{ display: 'none' }}
@@ -134,7 +139,6 @@ function QuestionWidget({
               </Widget.Topic>
             );
           })}
-
           <Button type="submit" disabled={!hasAlternativeSelected}>
             Confirmar
           </Button>
