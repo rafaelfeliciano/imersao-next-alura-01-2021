@@ -1,57 +1,62 @@
 import styled from 'styled-components'
+import Head from 'next/head';
+import { useRouter } from 'next/router';
+
 import db from '../db.json';
 import Widget from '../src/components/Widget';
 import Footer from '../src/components/Footer';
 import GithubCorner from '../src/components/GithubCorner';
+import QuizContainer from '../src/components/QuizContainer';
 import QuizBackground from '../src/components/QuizBackground';
 import QuizLogo from '../src/components/QuizLogo';
-
-const Title = styled.h1`
-  font-size: 50px;
-  color: ${({ theme }) => theme.colors.primary};
-`
-
-/* function Title(props) {
-    return <h1>{props.children}</h1>
-} */
-
-const BackgroundImage = styled.div`
-    background-image: url(${db.bg});
-    background-position: 'center';
-    background-size: 'cover';
-    background-repeat: no-repeat;
-    flex: 1; 
-`;
-
-export const QuizContainer = styled.div`
-  width: 100%;
-  max-width: 350px;
-  padding-top: 45px;
-  margin: auto 10%;
-  @media screen and (max-width: 500px) {
-    margin: auto;
-    padding: 15px;
-  }
-`;
+import Button from '../src/components/Button';
+import Input from '../src/components/Input';
+import { useState } from 'react';
 
 export default function Home() {
+    const router = useRouter();
+    const [name, setName] = useState('');
+
     return (
         <QuizBackground backgroundImage={db.bg}>
+            <Head>
+                <title>AluraQuiz - Modelo base</title>
+            </Head>
             <QuizContainer>
+                <QuizLogo />
                 <Widget>
                     <Widget.Header>
-                        <h1>When will we run again?</h1>
+                        <h1>Tokyo Rush!</h1>
                     </Widget.Header>
                     <Widget.Content>
-                        <p>Oksd aksdoak osda ksodk osdka, dsiji.</p>
+                        <form
+                            autoComplete="off"
+                            onSubmit={event => {
+                                event.preventDefault();
+                                router.push(`/quiz?name=${name}`);
+                            }}
+                        >
+                            <Input
+                                name='nomeDoUsuario'
+                                value={name}
+                                onChange={(e) => setName(e.target.value)}
+                                placeholder="Diz aí seu nome..."
+                            />
+                            <Button
+                                type="submit"
+                                disabled={name === ''}
+                            >
+                                Jogar
+                            </Button>
+                        </form>
                     </Widget.Content>
                 </Widget>
+
                 <Widget>
-                    <Widget.Header>
-                        <h1>The social perception quiz!</h1>
-                    </Widget.Header>
                     <Widget.Content>
-                        <p>Oksd aksdoak osda ksodk osdka, dsiji.</p>
+                        <h1>Quizes da Galera</h1>
+
+                        <p>lorem ipsum dolor sit amet...</p>
                     </Widget.Content>
                 </Widget>
                 <Footer />

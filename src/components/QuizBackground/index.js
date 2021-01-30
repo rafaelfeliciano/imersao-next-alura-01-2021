@@ -1,4 +1,3 @@
-// src/components/QuizBackground/index.js
 import styled from 'styled-components';
 
 const QuizBackground = styled.div`
@@ -19,7 +18,7 @@ const QuizBackground = styled.div`
         url(${({ backgroundImage }) => backgroundImage});
       display: block;
       width: 100%;
-      height: 210px;
+      height: 100%;
       position: absolute;
       top: 0;
       left: 0;
