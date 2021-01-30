@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
+import { motion } from 'framer-motion';
 
 import db from '../db.json';
 import Widget from '../src/components/Widget';
@@ -21,11 +22,20 @@ export default function Home() {
     return (
         <QuizBackground backgroundImage={db.bg}>
             <Head>
-                <title>AluraQuiz - Modelo base</title>
+                <title>Tokyo rush - quiz</title>
             </Head>
             <QuizContainer>
                 <QuizLogo />
-                <Widget>
+                <Widget
+                    as={motion.section}
+                    variants={{
+                        show: { opacity: 1, x: '0%' },
+                        hidden: { opacity: 0, x: '-100%' }
+                    }}
+                    initial="hidden"
+                    animate="show"
+                    transition={{ delay: 0, duration: 0.5 }}
+                >
                     <Widget.Header>
                         <h1>Tokyo Rush!</h1>
                     </Widget.Header>
@@ -53,7 +63,16 @@ export default function Home() {
                     </Widget.Content>
                 </Widget>
 
-                <Widget>
+                <Widget
+                    as={motion.section}
+                    variants={{
+                        show: { opacity: 1, x: '0%' },
+                        hidden: { opacity: 0, x: '-100%' }
+                    }}
+                    initial="hidden"
+                    animate="show"
+                    transition={{ delay: 0.5, duration: 0.5 }}
+                >
                     <Widget.Content>
                         <h1>Quizes da Galera</h1>
 

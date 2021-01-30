@@ -1,3 +1,5 @@
+import ReactLoading from 'react-loading';
+
 import db from '../../db.json';
 import Widget from '../../src/components/Widget';
 import QuizLogo from '../../src/components/QuizLogo';
@@ -11,6 +13,7 @@ function ResultWidget({ results }) {
   return (
     <Widget>
       <Widget.Header>
+        <BackLinkArrow href='/'> Voltar para home</BackLinkArrow>
         Tela de Resultado:
       </Widget.Header>
 
@@ -30,11 +33,11 @@ function ResultWidget({ results }) {
             </li>
           ))}
         </ul>
-        <div>
-          <BackLinkArrow href='/'> Voltar para home</BackLinkArrow>
-        </div>
       </Widget.Content>
-    </Widget>
+      <div>
+        <BackLinkArrow href='/' /> Voltar para home
+      </div>
+    </Widget >
   );
 }
 
@@ -42,11 +45,16 @@ function LoadingWidget() {
   return (
     <Widget>
       <Widget.Header>
-        Carregando...
+        Carregando
       </Widget.Header>
 
       <Widget.Content>
-        [Desafio do Loading]
+        <ReactLoading
+          type='spin'
+          color="#fff"
+          height={'150px'}
+          width={'150px'}
+        />
       </Widget.Content>
     </Widget>
   );
@@ -162,7 +170,7 @@ export default function QuizPage() {
 
     setTimeout(() => {
       setScreenState(screenStates.QUIZ);
-    }, 1 * 1000);
+    }, 3 * 1000);
   }, []);
 
   function handleSubmitQuiz() {

@@ -4,25 +4,51 @@
     "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
     "questions": [
         {
-            "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-            "title": "Como fazer um seletor por id via CSS?",
-            "description": "Essa é pra aquecer",
-            "answer": 2,
+            "image": "https://media.giphy.com/media/l2Sq8oTACVkhZ9pE4/giphy.gif",
+            "title": "O que não é proibido no metrô de Tóquio?",
+            "description": "Dica: são os mais lotados do mundo!",
+            "answer": 0,
             "alternatives": [
-                ".elemento",
-                "*elemento",
-                "#elemento",
-                "%elemento"
+                "Se alimentar",
+                "Sacudir guarda-chuva molhado",
+                "Entrar com mochilas grandes",
+                "Falar alto no celular"
             ]
         },
         {
-            "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-            "title": "Como fazer um background gradiente com css?",
-            "description": "Faz tempo em haha",
+            "image": "https://media.giphy.com/media/dUTXAiqyIQFXO83EDi/giphy.gif",
+            "title": "Qual o antigo nome da cidade de Tóquio?",
+            "description": "Nem no Google você acha essa!",
+            "answer": 3,
+            "alternatives": [
+                "Du",
+                "Edu",
+                "Dudu",
+                "Edo"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/Z8kQv8t1bY7wpw7aeY/giphy.gif",
+            "title": "Quais desses esportes não fará parte das olimpíadas de Tóquio?",
+            "description": "Não vou dar dica dessa vez!",
             "answer": 0,
             "alternatives": [
-                "background: linear-gradient(#e66465, #9198e5);",
-                "background: gradient(#e66465, #9198e5);"
+                "Sumô",
+                "Surf",
+                "Karatê",
+                "Escalada"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/cb9aF9tDyiRkYbz3BX/giphy.gif",
+            "title": "Qual dos personagens não será embaixador nas olimpíadas de Tóquio?",
+            "description": "O quiz é sobre Tóquio!",
+            "answer": 3,
+            "alternatives": [
+                "Goku",
+                "Hello Kitty",
+                "Naruto",
+                "Pikachu"
             ]
         }
     ],
