@@ -5,6 +5,7 @@ import QuizBackground from '../../src/components/QuizBackground';
 import QuizContainer from '../../src/components/QuizContainer';
 import AlternativesForm from '../../src/components/AlternativesForm';
 import Button from '../../src/components/Button';
+import BackLinkArrow from '../../src/components/BackLinkArrow';
 
 function ResultWidget({ results }) {
   return (
@@ -29,6 +30,9 @@ function ResultWidget({ results }) {
             </li>
           ))}
         </ul>
+        <div>
+          <BackLinkArrow href='/'> Voltar para home</BackLinkArrow>
+        </div>
       </Widget.Content>
     </Widget>
   );
@@ -64,6 +68,7 @@ function QuestionWidget({
   return (
     <Widget>
       <Widget.Header>
+        <BackLinkArrow href="/" />
         <h3>
           {`Pergunta ${questionIndex + 1} de ${totalQuestions}`}
         </h3>
@@ -95,7 +100,7 @@ function QuestionWidget({
               onSubmit();
               setIsQuestionSubmited(false);
               setSelectedAlternative(undefined);
-            }, 3 * 1000);
+            }, 2 * 1000);
           }}
         >
           {question.alternatives.map((alternative, alternativeIndex) => {
