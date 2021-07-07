@@ -100,7 +100,7 @@ export default function Home() {
                 </Widget>
                 <Footer />
             </QuizContainer>
-            <GithubCorner projectUrl="https://github.com/leandrocl2005/imersao-next-alura-01-2021" />
+            <GithubCorner projectUrl="https://github.com/rafaelfeliciano/imersao-next-alura-01-2021" />
         </QuizBackground>
     );
 }
