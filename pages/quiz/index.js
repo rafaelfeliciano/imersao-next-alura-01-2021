@@ -13,12 +13,12 @@ function ResultWidget({ results }) {
   return (
     <Widget>
       <Widget.Header>
-        <BackLinkArrow href='/'> Voltar para home</BackLinkArrow>
+        <BackLinkArrow href='/'> Voltar para a página inicial</BackLinkArrow>
         Tela de Resultado:
       </Widget.Header>
 
       <Widget.Content>
-        <p>{`Você acertou ${results.filter((x) => x).length} perguntas`}
+        <p>{`Parabéns resposta correta, continue assim ${results.filter((x) => x).length} perguntas`}
         </p>
         <ul>
           {results.map((result, index) => (
@@ -28,14 +28,14 @@ function ResultWidget({ results }) {
               {' '}
               Resultado:
               {result === true
-                ? 'Acertou'
-                : 'Errou'}
+                ? 'Parabéns resposta, correta continue assim'
+                : 'Resposta errada, sugiro estudar mais'}
             </li>
           ))}
         </ul>
       </Widget.Content>
       <div>
-        <BackLinkArrow href='/' /> Voltar para home
+        <BackLinkArrow href='/' /> Voltar para a página inicial
       </div>
     </Widget >
   );
@@ -96,7 +96,7 @@ function QuestionWidget({
           {question.title}
         </h2>
         <p>
-          {question.description}
+          {<div dangerouslySetInnerHTML={{ __html: question.description }} />}
         </p>
 
         <AlternativesForm
@@ -135,7 +135,7 @@ function QuestionWidget({
                   onChange={() => setSelectedAlternative(alternativeIndex)}
                   type="radio"
                 />
-                {alternative}
+                {<div dangerouslySetInnerHTML={{ __html: alternative }} />}
               </Widget.Topic>
             );
           })}
@@ -189,7 +189,7 @@ export default function QuizPage() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
-        <QuizLogo />
+       {/* <QuizLogo /> */}
         {screenState === screenStates.QUIZ && (
           <QuestionWidget
             question={question}

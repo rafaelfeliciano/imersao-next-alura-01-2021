@@ -22,10 +22,10 @@ export default function Home() {
     return (
         <QuizBackground backgroundImage={db.bg}>
             <Head>
-                <title>Tokyo rush - quiz</title>
+                <title>  Cálculo de Reatores e Cinética Química QUIZ!!- quiz</title>
             </Head>
             <QuizContainer>
-                <QuizLogo />
+               {/* <QuizLogo /> */}
                 <Widget
                     as={motion.section}
                     variants={{
@@ -37,7 +37,8 @@ export default function Home() {
                     transition={{ delay: 0, duration: 0.5 }}
                 >
                     <Widget.Header>
-                        <h1>Tokyo Rush!</h1>
+                        <h1>Qual o seu conhecimento sobre Cálculo de Reatores e Cinética Química ?!</h1>
+                        
                     </Widget.Header>
                     <Widget.Content>
                         <form
@@ -51,7 +52,7 @@ export default function Home() {
                                 name='nomeDoUsuario'
                                 value={name}
                                 onChange={(e) => setName(e.target.value)}
-                                placeholder="Diz aí seu nome..."
+                                placeholder="Informe o seu nome neste campo..."
                             />
                             <Button
                                 type="submit"
@@ -63,7 +64,7 @@ export default function Home() {
                     </Widget.Content>
                 </Widget>
 
-                <Widget
+                {/*<Widget
                     as={motion.section}
                     variants={{
                         show: { opacity: 1, x: '0%' },
@@ -97,7 +98,7 @@ export default function Home() {
                             })}
                         </ul>
                     </Widget.Content>
-                </Widget>
+                        </Widget>*/}
                 <Footer />
             </QuizContainer>
             <GithubCorner projectUrl="https://github.com/rafaelfeliciano/imersao-next-alura-01-2021" />

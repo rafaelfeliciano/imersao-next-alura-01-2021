@@ -1,56 +1,130 @@
 {
-    "bg": "https://images.unsplash.com/photo-1493514789931-586cb221d7a7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80",
-    "title": "Quiz CSS da Alura",
+    "bg": "https://images.unsplash.com/photo-1528823872057-9c018a7a7553?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+    "title": "Quiz CQCR",
     "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
     "questions": [
         {
-            "image": "https://media.giphy.com/media/l2Sq8oTACVkhZ9pE4/giphy.gif",
-            "title": "O que não é proibido no metrô de Tóquio?",
-            "description": "Dica: são os mais lotados do mundo!",
+            "image": "https://media.giphy.com/media/l2JedyI3L5WbjbBJe/giphy.gif",
+            "title": "Dentro de cinética química, um dos fatores mais importantes é o número de choques efetivos que contribui para o aumento da taxa da reação. A partir disso, descreva a taxa da reação,para se fazer a utilização do método da integral, onde o reator é alimentado puro por A, a reação é irreversível, elementar e adiabático",
+            "description": "Dados: K = [L<sup>6</sup> / mol<sup>6</sup> * s]",
+            "answer": 1,
+            "alternatives": [
+                "1/Ca = 1/Ca0 -Kt",
+                "1/6Ca<sup>6</sup> = 1/6Ca0<sup>6</sup> + Kt",
+                "Ca = Ca0 - Kt",
+                "1/3Ca<sup>3</sup> = 1/3Ca0<sup>3</sup> + Kt"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/d47J14QUZlcNuFZS/giphy.gif",
+            "title": "Para que serve a formula de ahrrenius dentro da cinética química ? Mostre para mim que você realmente sabe do que ela se trata e deduza ela",
+            "description": "Dica: Pense nas propriedades que caracterizam K e como ele pode ser afetado e descrito",
+            "answer": 2,
+            "alternatives": [
+                "Serve para eu calcular o tempo de residencia com que as particulas atravessam o reator, por rotas preferências, que na qual, para zonas de alta preferência se tem uma quantidade maior de choques efetivos possíveis naquela região sendo descrita pela constate K para dois pontos, de tal forma que ln(K1) + ln(K2) = (ln(A) - Ea/RT1) - (ln(A) - Ea/RT2) => ln(K1*K2)=(Ea/R)(-1/T1 + 1/T2)",
+                "Se trata da diferença de energia cinética gerada por dois intervalos de tempo por uma secção transversal (A), onde essa energia resultante (Ea) é a mínima,que representa a energia necessária para se dar início ao processo de reação que é repassada para a matéria (gases, disso vem o RT) que passa pelo reator, assim aumentando a velocidade espacial e com isso tendo um aumento de K, logo K=Ae<sup>-Ea/RT</sup> ",
+                "Como K=f(T), então para toda e qualquer intervalo de temperatura irei ter alterações no valor da constate K, assim para dois pontos da T posso descrever K da seguinte forma : ln(k1) - ln(k2) = (ln(A)-Ea/RT1) - (ln(A)-Ea/RT2) => ln(K1/K2)=Ea/R (-1/T1 + 1/T2)",
+                "Se trata da constante que faz a quantificação da variação de k em função da temperatura, de tal modo que ln(K1) - ln(K2) = (ln(A)+Ea/RT1) - (ln(A) + Ea/RT2) => ln(K1/K2)=(Ea/R)(1/T1 + 1/T2)"
+            ]
+        },
+        {
+            "image": "https://media.giphy.com/media/l2Je9vOT45kuSfTDa/giphy.gif",
+            "title": "A isomeração do butano é da seguinte forma C4H10 -> i C4H10 ocorreu em fase líquida e adiabaticamente, com isso obtivemos [x]=[0 ; 0,2 ; 0,4 ; 0,6 ; 0,65] e [-ra (Kmol/h*m^3)]=[39 ; 53; 59 ; 38; 25] em um sistema de reatores em serie dispostos na sequência de CSTR - PFR - CSTR. Me informe o valor para cada volume destes reatores",
+            "description": "Não vou dar dica dessa vez! Mas vou deixar vou deixar indiretamente o método que você deverá utilizar para se chegar no resultado correto .... VOCÊ CONSEGUE ENXERGAR A DICA ?!",
             "answer": 0,
             "alternatives": [
-                "gritar motorista",
-                "Sacudir guarda-chuva molhado",
-                "Entrar com mochilas grandes",
-                "Falar alto no celular"
+                "V1 = 188 dm<sup>3</sup> ; V2=380 dm<sup>3</sup> ; V3= 100 dm<sup>3</sup>",
+                "V1 = 100 dm<sup>3</sup> ; V2= 380 dm<sup>3</sup> ; V3=188 dm<sup>3</sup>",
+                "V1 = 380 dm<sup>3</sup> ; V2= 100 dm<sup>3</sup> ; V3= 188 dm<sup>3</sup>",
+                "V1 = 100 dm<sup>3</sup> ; V2=100 dm<sup>3</sup> ; V3= 188 dm<sup>3</sup>"
             ]
         },
         {
-            "image": "https://media.giphy.com/media/dUTXAiqyIQFXO83EDi/giphy.gif",
-            "title": "Qual o antigo nome da cidade de Tóquio?",
-            "description": "Nem no Google você acha essa!",
-            "answer": 3,
+            "image": "https://media.giphy.com/media/l2JdUuvJXidxAzC0w/giphy.gif",
+            "title": "Um sistema é proposto, que na qual, uma reação ocorre em um CSTR(real), que pode ser modelado de duas formas por sistemas sendo eles : 1)CSTR(ideal) -> PRF(ideal) ; 2)PFR(ideal) -> CSTR(ideal). Esta reação descrita é de primeira ordem , e se encontra em estado estacionário. A partir disso é possível dizer que para ambos os sistemas propostos a conversão será a mesma ?",
+            "description": "Dica: resolva na mão um sistema desse proposto com valores simplês de se calcular, logo verá que se mantém a afirmativa p/ todo e qualquer caso, de tal maneira que o resultado será igual ou aproximado do desejado.",
+            "answer": 1,
             "alternatives": [
-                "Du",
-                "Edu",
-                "Dudu",
-                "Edo"
+                "Não, pela definição de conversão temos uma razão de mols reagidos de A/mols alimentados de A , tal que A é o composto limitante da reação. A partir disso, sabemos que existe gradientes de concentração em reatores CSTR, com isso ocasionando que a velocidade reacional seja mais baixa e assim aumentando o tempo de residência e por sua vez aumentando a conversão",
+                "Sim, p/ reações de primeira ordem, a conversão obtida será a mesma, não importando a ordem dos reatores.",
+                "Não se aplica a todo caso, porém se existe excessões que sim",
+                "Sim, p/ reações de primeira ordem, temos uma função linear, de tal modo que se eu variar tempo de residência, velocidade especifica da reação, concetração do reagente ao longo do reator (caso de entradas laterais), apenas pelo fato de ser uma função linear a conversão se manterá a mesma"
             ]
         },
         {
-            "image": "https://media.giphy.com/media/Z8kQv8t1bY7wpw7aeY/giphy.gif",
-            "title": "Quais desses esportes não fará parte das olimpíadas de Tóquio?",
-            "description": "Não vou dar dica dessa vez!",
+            "image": "https://media.giphy.com/media/l2JdUuvJXidxAzC0w/giphy.gif",
+            "title": "Teste página 5",
+            "description": "Vai dar certo",
             "answer": 0,
             "alternatives": [
-                "Sumô",
-                "Surf",
-                "Karatê",
-                "Escalada"
+                "ABCCCCC",
+                "aaaaa",
+                "ajajajaja",
+                "huehehue"
+            ]    
+        },
+        {
+            "image" : "https://media.giphy.com/media/l2JdUuvJXidxAzC0w/giphy.gif",
+            "title" : "ME AJUDA DEUS",
+            "description" : "VAI DAR TUDO CERTO",
+            "answer" : 1,
+            "alternatives" :[
+
+                "EU SEI QUE VAI",
+                "CONFIA E DÊ O SEU MELHOR",
+                "QUANTOS PASSOS VC DEU ATÉ CHEGAR AQUI",
+                "FICA BEM, DESCANSA, VOLTA PARA A LUTA"
             ]
         },
         {
-            "image": "https://media.giphy.com/media/cb9aF9tDyiRkYbz3BX/giphy.gif",
-            "title": "Qual dos personagens não será embaixador de Tóquio nas olimpíadas?",
-            "description": "O quiz é sobre Tóquio!",
-            "answer": 3,
-            "alternatives": [
-                "Goku",
-                "Hello Kitty",
-                "Naruto",
-                "Pikachu"
+            "image" : "",
+            "title" : "",
+            "description" : "Vai dar certo",
+            "answer" : 0,
+            "alternatives" :[
+                "bbbbbbbbbbbbbb",
+                "gggggggggggggggg",
+                "hhhhhhhhhhhhhh",
+                "gggggggggggggg"
+
             ]
-        }
+        },
+        {
+            "image" : "",
+            "title" : "",
+            "description" : "",
+            "answer" : 0,
+            "alternatives" :[
+                "dddddddddddddddd",
+                "sssssssssssssss",
+                "aaaaaaaaaaa",
+                "tttttttttttttt"
+            ]
+        },
+        {
+            "image": "",
+            "title" : "",
+            "description" : "",
+            "answer" : 0,
+            "alternatives" : [
+                "jjjjjjjjjjj",
+                "gggggggg",
+                "fffffffffff",
+                "rrrrrrrrr" 
+            ]
+        },
+        {
+            "image" : "",
+            "title" : "",
+            "description" : "",
+            "answer" : 0,
+            "alternatives":[
+                "ggggggg",
+                "eeeeeeeeee",
+                "qqqqqqqqqqq",
+                "wwwwwwwww"
+            ]
+        }      
     ],
     "external": [
         "https://quiz-react.brenoha.vercel.app/",
@@ -58,12 +132,12 @@
     ],
     "theme": {
         "colors": {
-            "primary": "#0d47a1aa",
-            "secondary": "#29b6f6aa",
-            "mainBg": "#171B35cc",
+            "primary": "7F8995",
+            "secondary": "#83A1B1",
+            "mainBg": "#1B1512",
             "contrastText": "#FFFFFF",
-            "wrong": "#FF5722aa",
-            "success": "#4CAF50aa"
+            "wrong": "843F36",
+            "success": "7F8995"
         },
         "borderRadius": "4px"
     }

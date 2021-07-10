@@ -16,7 +16,7 @@ function ResultWidget({ results }) {
       </Widget.Header>
 
             <Widget.Content>
-                <p>{`Você acertou ${results.filter((x) => x).length} perguntas`}
+                <p>{`Parabéns resposta correta, continue assim você está no caminho certo ${results.filter((x) => x).length} perguntas`}
                 </p>
                 <ul>
                     {results.map((result, index) => (
@@ -26,8 +26,8 @@ function ResultWidget({ results }) {
                             {' '}
               Resultado:
                             {result === true
-                                ? 'Acertou'
-                                : 'Errou'}
+                                ? 'Correto'
+                                : 'Errado'}
                         </li>
                     ))}
                 </ul>
