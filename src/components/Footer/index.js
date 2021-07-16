@@ -31,7 +31,7 @@ export default function Footer(props) {
     <>
 
     <FooterWrapper {...props}>
-      <a href="https://www.alura.com.br/">
+      <a href="http://www.uftm.edu.br/">
         <img src="https://image.flaticon.com/icons/png/512/2855/2855880.png" alt="Logo Alura" />
        </a>
       <p>
@@ -45,9 +45,7 @@ export default function Footer(props) {
       </p> 
 
     </FooterWrapper>
-    <div>
-    <iframe src="https://chat-912x6500w-rafaelfeliciano1.vercel.app/" style=" width: 100%; height: 300px;background-color: wheat;"/>
-    </div> 
+   
 
     </>
   );

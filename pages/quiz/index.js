@@ -146,6 +146,9 @@ function QuestionWidget({
           {isQuestionSubmited && !isCorrect && <p>Você errou!</p>}
         </AlternativesForm>
       </Widget.Content>
+      <div>
+    <iframe src="https://chat-912x6500w-rafaelfeliciano1.vercel.app/" style={{ width: '100%', height: 300, backgroundColor: 'wheat'}}/>
+    </div> 
     </Widget>
   );
 }
