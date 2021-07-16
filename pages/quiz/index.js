@@ -1,5 +1,5 @@
 import ReactLoading from 'react-loading';
-import React from 'react';
+import React,{useEffect} from 'react';
 import db from '../../db.json';
 import Widget from '../../src/components/Widget';
 import QuizLogo from '../../src/components/QuizLogo';
@@ -11,6 +11,10 @@ import BackLinkArrow from '../../src/components/BackLinkArrow';
 
 
 function ResultWidget({ results }) {
+  useEffect(() => {
+  const result =  results.filter((x) => x).length;
+  alert(`Parabéns querido(a) usuário(a) por ter realizado a conclusão do quiz proposto para esse tópico tão importante dentro da Engenharia Química. O conhecimento é difundido apenas através do repasse ao próximo e com isso podemos crescer juntos, para que futuros usuários tenha uma fonte a se seguir compartilhe conosco a sua nota obtida e com isso teremos um ranking de usuários onde os que tiveram maior nota poderam ajudar o próximo, a sua nota foi dê: ${result} pontos. `)
+  }, []);
   return (
     <Widget>
       <Widget.Header>
@@ -19,7 +23,7 @@ function ResultWidget({ results }) {
       </Widget.Header>
 
       <Widget.Content>
-        <p>{`Parabéns resposta correta, continue assim ${results.filter((x) => x).length} perguntas`}
+        <p>{`Parabéns ,resposta correta, continue assim ${results.filter((x) => x).length} perguntas`}
         </p>
         <ul>
           {results.map((result, index) => (
@@ -38,6 +42,12 @@ function ResultWidget({ results }) {
       <div>
         <BackLinkArrow href='/' /> Voltar para a página inicial
       </div>
+      <div>
+       
+       
+       <iframe src="https://chat-912x6500w-rafaelfeliciano1.vercel.app/" style={{ width: '100%', height: 300, backgroundColor: 'silver'}}/>
+       
+       </div> 
     </Widget >
   );
 }

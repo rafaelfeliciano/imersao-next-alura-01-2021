@@ -32,7 +32,7 @@ export default function Footer(props) {
 
     <FooterWrapper {...props}>
       <a href="http://www.uftm.edu.br/">
-        <img src="https://image.flaticon.com/icons/png/512/2855/2855880.png" alt="Logo Alura" />
+        <img src="https://image.flaticon.com/icons/png/512/2855/2855880.png" alt="Logo Reator" />
        </a>
       <p>
         Trabalho orgulhosamente proposto para
