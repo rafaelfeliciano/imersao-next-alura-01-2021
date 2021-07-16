@@ -23,7 +23,7 @@
             "alternatives": [
                 "Serve para eu calcular o tempo de residencia com que as particulas atravessam o reator, por rotas preferências, que na qual, para zonas de alta preferência se tem uma quantidade maior de choques efetivos possíveis naquela região sendo descrita pela constate K para dois pontos, de tal forma que ln(K1) + ln(K2) = (ln(A) - Ea/RT1) - (ln(A) - Ea/RT2) => ln(K1*K2)=(Ea/R)(-1/T1 + 1/T2)",
                 "Se trata da diferença de energia cinética gerada por dois intervalos de tempo por uma secção transversal (A), onde essa energia resultante (Ea) é a mínima,que representa a energia necessária para se dar início ao processo de reação que é repassada para a matéria (gases, disso vem o RT) que passa pelo reator, assim aumentando a velocidade espacial e com isso tendo um aumento de K, logo K=Ae<sup>-Ea/RT</sup> ",
-                "Como K=f(T), então para toda e qualquer intervalo de temperatura irei ter alterações no valor da constate K, assim para dois pontos da T posso descrever K da seguinte forma : -ln(k1) + ln(k2) = (ln(A)-Ea/RT1) - (ln(A)-Ea/RT2) => ln(k2/k1)=Ea/R (1/T1 - 1/T2) => K2 = K1*exp<sup>((-Ea/R)*(1/T1 - 1/T2))</sup>",
+                "Como K=f(T), então para toda e qualquer intervalo de temperatura irei ter alterações no valor da constate K, assim para dois pontos da T posso descrever K da seguinte forma : -ln(k1) + ln(k2) = (ln(A)-Ea/RT1) - (ln(A)-Ea/RT2) => ln(k2/k1)=Ea/R (1/T1 - 1/T2) => K2 = K1*exp((-Ea/R)*(1/T1 - 1/T2))",
                 "Se trata da constante que faz a quantificação da variação de k em função da temperatura, de tal modo que ln(K1) - ln(K2) = (ln(A)+Ea/RT1) - (ln(A) + Ea/RT2) => ln(K1/K2)=(Ea/R)(1/T1 + 1/T2)"
             ]
         },
@@ -77,9 +77,9 @@
             ]
         },
         {
-            "image" : "https://media.giphy.com/media/5wu6GfjDuOHDTHEBeZ/giphy.gif",
+            "image" : "https://media.giphy.com/media/3o6Mbh5Owy4EGVcoMg/giphy.gif",
             "title" : "Em dois reatores semi-batelada tem reações distintas acontecendo neles. CASO 1) Um reagente (A) é alimentado vagarosamente adicionado ao reator onde outro reagente (B) ja se encontra. CASO 2) Uma mistura de reagentes (A+B) são alimentados simultaneamente em um reator e um produto (C), em fase gasosa, é retirado constantemente deste reator. Sobre esses dois casos de reações é correto afirmar que:",
-            "description" : "Vai dar certo",
+            "description" : "Olhe atentamente para os tipos de reatores e como são propostos os dois casos de estudos",
             "answer" : 2,
             "alternatives" :[
                 "Os reatores não são isotérmicos. O primeiro reator é menos usado, pois a reação demora a ocorrer e isso o torna menos eficiente. O segundo reator produz inerte junto ao gás, mas ainda é eficiente em algumas reações",
@@ -90,15 +90,15 @@
             ]
         },
         {
-            "image" : "",
-            "title" : "",
-            "description" : "",
+            "image" : "https://media.giphy.com/media/hbd8nlok7kqnS/giphy.gif",
+            "title" : "A reação A + B -> C acontece em um CSTR com volume de 20m<sup>3</sup>.A alimentação está a 295 K e contém óxido de propileno (A), água(B) e metanol(M), cada um a uma taxa de 91 mol/h. O produto (C) é propilenoglicol. A vazão volumétrica para o reator é de 25m<sup>3</sup>/h. Considere que a reação é de primeira ordem em A e de ordem zero em B, com os dados que o descreve logo a baixo. A partir disso,quais são as condições de operação ótima(temperatura e conversão) em estado estacionário para este CSTR, que na qual, é estavel esse ponto",
+            "description" : "Dados -> Cpa = 146 J/molK ; CpB = 75 J/molK ; CpC = 192 J/molK ; CpM = 79 J/molK ; K = 6,9*E10exp(-75000/(RT)) h<sup>-1</sup> onde a energia de ativação está em unidade de J/mol ; A entalpia de reação = -56800 J/mol ; o CSTR é revestido de uma de resfriamento UA = 1,0x10<sup>4</sup> J/hK ; a agua é usada para resfriar com uma  (T0) = 305 K e assuma constante ..... DICA!:Construa um gráfico com os dados das conversões de equilíbrio e de balanço de energia variando com a temperatura para a melhor visualização do problema, com isso você perceberá um ponto de intersecção entre as duas funções e com isso encontrará a resposta para essa pergunta",
             "answer" : 0,
             "alternatives" :[
-                "dddddddddddddddd",
-                "sssssssssssssss",
-                "aaaaaaaaaaa",
-                "tttttttttttttt"
+                "T = 433K ; X=0,98",
+                "T=363K ; X=0,47",
+                "T=433K ; X=0,53",
+                "T= 363K ; X=0,98"
             ]
         },
         {

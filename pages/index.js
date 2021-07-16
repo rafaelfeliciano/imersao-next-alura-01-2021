@@ -102,9 +102,7 @@ export default function Home() {
                 <Footer />
             </QuizContainer>
             <GithubCorner projectUrl="https://github.com/rafaelfeliciano/imersao-next-alura-01-2021" />
-            <div>
-    <iframe src="https://chat-912x6500w-rafaelfeliciano1.vercel.app/" style={{ width: '100%', height: 300, backgroundColor: 'wheat'}}/>
-    </div> 
+        
         </QuizBackground>
     );
 }
