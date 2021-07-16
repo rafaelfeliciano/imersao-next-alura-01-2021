@@ -4,7 +4,7 @@
     "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
     "questions": [
         {
-            "image": "https://media.giphy.com/media/l2JedyI3L5WbjbBJe/giphy.gif",
+            "image": "https://media.giphy.com/media/l2Je1L0Ui6upvM5l6/giphy.gif",
             "title": "Dentro de cinética química, um dos fatores mais importantes é o número de choques efetivos que contribui para o aumento da taxa da reação. A partir disso, descreva a taxa da reação,para se fazer a utilização do método da integral, onde o reator é alimentado puro por A, a reação é irreversível, elementar e adiabático",
             "description": "Dados: K = [L<sup>6</sup> / mol<sup>6</sup> * s]",
             "answer": 1,
@@ -16,21 +16,21 @@
             ]
         },
         {
-            "image": "https://media.giphy.com/media/d47J14QUZlcNuFZS/giphy.gif",
+            "image": "https://media.giphy.com/media/8EmeieJAGjvUI/giphy.gif",
             "title": "Para que serve a formula de ahrrenius dentro da cinética química ? Mostre para mim que você realmente sabe do que ela se trata e deduza ela",
             "description": "Dica: Pense nas propriedades que caracterizam K e como ele pode ser afetado e descrito",
             "answer": 2,
             "alternatives": [
                 "Serve para eu calcular o tempo de residencia com que as particulas atravessam o reator, por rotas preferências, que na qual, para zonas de alta preferência se tem uma quantidade maior de choques efetivos possíveis naquela região sendo descrita pela constate K para dois pontos, de tal forma que ln(K1) + ln(K2) = (ln(A) - Ea/RT1) - (ln(A) - Ea/RT2) => ln(K1*K2)=(Ea/R)(-1/T1 + 1/T2)",
                 "Se trata da diferença de energia cinética gerada por dois intervalos de tempo por uma secção transversal (A), onde essa energia resultante (Ea) é a mínima,que representa a energia necessária para se dar início ao processo de reação que é repassada para a matéria (gases, disso vem o RT) que passa pelo reator, assim aumentando a velocidade espacial e com isso tendo um aumento de K, logo K=Ae<sup>-Ea/RT</sup> ",
-                "Como K=f(T), então para toda e qualquer intervalo de temperatura irei ter alterações no valor da constate K, assim para dois pontos da T posso descrever K da seguinte forma : ln(k1) - ln(k2) = (ln(A)-Ea/RT1) - (ln(A)-Ea/RT2) => ln(K1/K2)=Ea/R (-1/T1 + 1/T2)",
+                "Como K=f(T), então para toda e qualquer intervalo de temperatura irei ter alterações no valor da constate K, assim para dois pontos da T posso descrever K da seguinte forma : -ln(k1) + ln(k2) = (ln(A)-Ea/RT1) - (ln(A)-Ea/RT2) => ln(k2/k1)=Ea/R (1/T1 - 1/T2) => K2 = K1*exp<sup>((-Ea/R)*(1/T1 - 1/T2))</sup>",
                 "Se trata da constante que faz a quantificação da variação de k em função da temperatura, de tal modo que ln(K1) - ln(K2) = (ln(A)+Ea/RT1) - (ln(A) + Ea/RT2) => ln(K1/K2)=(Ea/R)(1/T1 + 1/T2)"
             ]
         },
         {
-            "image": "https://media.giphy.com/media/l2Je9vOT45kuSfTDa/giphy.gif",
+            "image": "https://media.giphy.com/media/xT5LMQgoOuS6hGOjCg/giphy.gif",
             "title": "A isomeração do butano é da seguinte forma C4H10 -> i C4H10 ocorreu em fase líquida e adiabaticamente, com isso obtivemos [x]=[0 ; 0,2 ; 0,4 ; 0,6 ; 0,65] e [-ra (Kmol/h*m^3)]=[39 ; 53; 59 ; 38; 25] em um sistema de reatores em serie dispostos na sequência de CSTR - PFR - CSTR. Me informe o valor para cada volume destes reatores",
-            "description": "Não vou dar dica dessa vez! Mas vou deixar vou deixar indiretamente o método que você deverá utilizar para se chegar no resultado correto .... VOCÊ CONSEGUE ENXERGAR A DICA ?!",
+            "description": "Não vou dar dica dessa vez! Mas vou deixar indiretamente o método que você deverá utilizar para se chegar no resultado correto .... VOCÊ CONSEGUE ENXERGAR A DICA ?!",
             "answer": 0,
             "alternatives": [
                 "V1 = 188 dm<sup>3</sup> ; V2=380 dm<sup>3</sup> ; V3= 100 dm<sup>3</sup>",
@@ -41,7 +41,7 @@
         },
         {
             "image": "https://media.giphy.com/media/l2JdUuvJXidxAzC0w/giphy.gif",
-            "title": "Um sistema é proposto, que na qual, uma reação ocorre em um CSTR(real), que pode ser modelado de duas formas por sistemas sendo eles : 1)CSTR(ideal) -> PRF(ideal) ; 2)PFR(ideal) -> CSTR(ideal). Esta reação descrita é de primeira ordem , e se encontra em estado estacionário. A partir disso é possível dizer que para ambos os sistemas propostos a conversão será a mesma ?",
+            "title": "Um sistema é proposto, que na qual, uma reação ocorre em um CSTR(real), que pode ser modelado de duas formas por sistemas sendo eles : 1)CSTR(ideal) -> PRF(ideal) ; 2)PFR(ideal) -> CSTR(ideal). Esta reação descrita é de primeira ordem , e se encontra em estado estacionário. A partir disso é possível dizer que para ambos os sistemas propostos a conversão será a mesma,ou aproxidamente proxima, sabendo que a ordem da reação é de primeira ordem ?",
             "description": "Dica: resolva na mão um sistema desse proposto com valores simplês de se calcular, logo verá que se mantém a afirmativa p/ todo e qualquer caso, de tal maneira que o resultado será igual ou aproximado do desejado.",
             "answer": 1,
             "alternatives": [
@@ -52,40 +52,40 @@
             ]
         },
         {
-            "image": "https://media.giphy.com/media/l2JdUuvJXidxAzC0w/giphy.gif",
-            "title": "Teste página 5",
-            "description": "Vai dar certo",
-            "answer": 0,
+            "image": "https://media.giphy.com/media/l2Ject9fem5QZOyTC/giphy.gif",
+            "title": "Em uma reação em fase gasosa, a concentração das espécies é proporcional á pressão e, portante, é preciso considerar a variação de pressão ao longo do reator. Para reconhecer os efeitos da pressão no cálculo de reatores é utilizado a equação de Ergun.Porém, nesta equação apenas um parâmetro varia com a pressão. Que parâmetro é esse ?",
+            "description": "Sugiro fazer a dedução da fórmula de ergun, pois assim você sempre terá a resposta de imediato e logo em efeito de serviço já saberá fazer a análise imediata da situação",
+            "answer": 1,
             "alternatives": [
-                "ABCCCCC",
-                "aaaaa",
-                "ajajajaja",
-                "huehehue"
+                "Porosidade do Leito",
+                "Massa específica",
+                "Viscosidade do gás",
+                "Velocidade mássica superficial"
             ]    
         },
         {
-            "image" : "https://media.giphy.com/media/l2JdUuvJXidxAzC0w/giphy.gif",
-            "title" : "ME AJUDA DEUS",
-            "description" : "VAI DAR TUDO CERTO",
-            "answer" : 1,
+            "image" : "https://media.giphy.com/media/3o6MbfG4jYHgXP7nTW/giphy.gif",
+            "title" : "Uma empresa deseja instalar um reator não isotérmico que irá operar adiabaticamente. Em uma consultoria, pede-se para você, engenheiro químico, o volume no qual este reator está trabalhando. A especificação de quais variáveis se faz necessária para resolver este problema?",
+            "description" : "PERGUNTA",
+            "answer" : 0,
             "alternatives" :[
 
-                "EU SEI QUE VAI",
-                "CONFIA E DÊ O SEU MELHOR",
-                "QUANTOS PASSOS VC DEU ATÉ CHEGAR AQUI",
-                "FICA BEM, DESCANSA, VOLTA PARA A LUTA"
+                "Conversão e as variáveis de entrada",
+                "Conversão e as composições de saída",
+                "Massa específica e concentração dos reagentes",
+                "Vazão de entrada e massa especifíca"
             ]
         },
         {
-            "image" : "",
-            "title" : "",
+            "image" : "https://media.giphy.com/media/5wu6GfjDuOHDTHEBeZ/giphy.gif",
+            "title" : "Em dois reatores semi-batelada tem reações distintas acontecendo neles. CASO 1) Um reagente (A) é alimentado vagarosamente adicionado ao reator onde outro reagente (B) ja se encontra. CASO 2) Uma mistura de reagentes (A+B) são alimentados simultaneamente em um reator e um produto (C), em fase gasosa, é retirado constantemente deste reator. Sobre esses dois casos de reações é correto afirmar que:",
             "description" : "Vai dar certo",
-            "answer" : 0,
+            "answer" : 2,
             "alternatives" :[
-                "bbbbbbbbbbbbbb",
-                "gggggggggggggggg",
-                "hhhhhhhhhhhhhh",
-                "gggggggggggggg"
+                "Os reatores não são isotérmicos. O primeiro reator é menos usado, pois a reação demora a ocorrer e isso o torna menos eficiente. O segundo reator produz inerte junto ao gás, mas ainda é eficiente em algumas reações",
+                "Um reator é utilizado para reaçoes endotérmicas, o outro é usado para realizar o deslocamento do equilíbrio em direção do reagente, pois o produto C é considerado inerte",
+                "Um é utilizado para reações exotérmicas ou quando há produção de inerte, o outro é usado para realizar o deslocamento do equílibrio em direção do produto",
+                "Um reator é utilizado para reações endotérmicas, o outro é usado para realizar o deslocamento do equilíbrio em direção do reagente"
 
             ]
         },
@@ -102,27 +102,27 @@
             ]
         },
         {
-            "image": "",
-            "title" : "",
-            "description" : "",
-            "answer" : 0,
+            "image": "https://media.giphy.com/media/57LwtRGoPTDVu/giphy.gif",
+            "title" : "Um dia em seu serviço é feito as seguintes corridas para um reator CSTR , cujo se encontra em série com outro CSTR que se tem pela reação de A + B -> C e se obtêm os seguintes dados experimentais, onde que [t]=[0 ; 0,5 ; 1 ; 1,5 ; 2 ; 2,5 ; 3 ; 3,5 ; 4 ; 4,5 ; 5 ; 5,5 ; 6 ; 6,5 ; 7 ; 7,5 ; 8 ; 8,5 ; 9 ; 9,5 ; 10 ; 10,5 ; 11 ; 11,5 ; 12 , 12,5 ; 13 ; 13,5 ; 14 ; 14,5 ; 15] por uma condutividade respectiva para a mesma ordem dos tempos descrita da seguinte forma [condutividade] = [0,0002578 ; 0,01181 ; 0,01177 ; 0,01177 ; 0,01177 ; 0,1046 ; 0,1046 ; 0,1017 ; 0,0101 ; 0,01002 ; 0,00997 ; 0,00992 ; 0,00987 ; 0,00986 ; 0,00981 ; 0,00981 ; 0,00979 ; 0,00977 ; 0,00975 ; 0,00977 ; 0,00975 ; 0,00976 ; 0,00975 ; 0,00977 ; 0,00978 ; 0,0098 ; 0,0098 ; 0,00979 ; 0,00981 ; 0,00982 ; 0,00981 ; 0,00981] .Você é novo na indústria e não tem as informações que o modela, e se tem apenas estas informações descritas anteriormente, porém você sabe fazer a modelagem para ele. A partir disso, me diga qual método de DTR melhor o descreve e porquê é esse método ",
+            "description" : "Dados => K1=0,0946 L*mol<sup>-1</sup>*min<sup>-1</sup> ; K2=0,0219 L/mol*s Vazão Reservatório 1 = 20 L/h ; V1=V2= 1,8L ; Ca=Cb=0,1 mol/L .... para não dizer que estou sendo malvado com a complexidade da questão, então darei a seguinte DICA ! Pense no Homer Simpson como o seu sistema de reatores e o Donult é o seu objetivo final dentro da indústria", 
+            "answer" : 3,
             "alternatives" : [
-                "jjjjjjjjjjj",
-                "gggggggg",
-                "fffffffffff",
-                "rrrrrrrrr" 
+                "Segregação com X=0,0836642 ; C(t) = 0,114065 , é descrito por segregação, pelo fato de eu conseguir caracterizar o meu reator em um batelada, onde se tem uma mistura perfeita e com isso, conseguirei aumentar a minha conversão para um determinado produto fazendo o incremento em excesso para o componente desejado",
+                "Dispersão com X=0,252635 ; C(t) = 0,114065 é descrito por dispersão, pelo fato de que é necessário fazer o incremento de mais um parâmetro para que se possa descrever um sistema por um todo dentro de um caso fechado-fechado",
+                "Mistura Máxima com X=0,135476 ; C(t) = 0,149762 , é descrito por mistura máxima, pelo fato de que o meu meio reacional dentro do CSTR tem zonas e canais de alta e baixa preferência, que na qual, a minha reação terá um determinado tempo de vida e com isso é descrito melhor por este modelo",
+                "Tanques em Série com X= 0,407868 ; n = 0,937 , é descrito por tanques em série, pelo fato de que a partir do momento que eu entro em uma distribuição de CSTR->CSTR o objetivo principal é aumentar a minha conversão (tendendo a idealidade) através de sequenciameto de novos reatores, que na qual, é alcançado por este modelo com a conversão maior do que todos os modelos anteriores" 
             ]
         },
         {
-            "image" : "",
-            "title" : "",
-            "description" : "",
-            "answer" : 0,
+            "image" : "https://media.giphy.com/media/26BGIqWh2R1fi6JDa/giphy.gif",
+            "title" : "Para se diferenciar dos demais, um grande engenheiro químico deve ter um arsenal bastante vasto de conhecimento para utilizar em seu dia a dia em seu emprego. Porém, não basta apenas saber da existência de técnicas ou as conhecê-las em termos teóricos, deve-se sempre as pôr em prática para que se tenha um total domínio delas. A partir disso, proponho à você, meu querido(a) participante deste quiz, resolver o meu problema de modelagem de reatores para o seguinte caso. Um CSTR pode ser descrito por um volume de troca (aigtação diferente) utilizando as considerações a seguir: Para uma vazão constante, considere a alimentação do seu primeiro reator sendo FA0 e a saída FA1. Em seu reator 2 a saída e entrada são dados por FA0 e FA1 respectivamente. Informe o valor de Ca1, Ca2, X(1) e X(2).Sabendo que a legenda 1 e 2 são atribuídas para os reatores de mesmo valor",
+            "description" : "Dados -> Beta =0,05 ; alfa = 0,75 ; tau=10 ; Ca0 = 1 mol/L ; irreversível na qual A -> B; K = 1 L<sup>7</sup>/mol<sup>7</sup>*s ; DICA ! : Sugiro que faça um balanço molar primeiro do tipo FA0 = Ca0 * v0(vazão volumétrica) , isto para todas as componentes de alimentação e por fim faça um balanço em cada reator do tipo Ácumulo= entrada - saída + taxa de reação e chute em um intervalo do tipo [0.0;0.0]",
+            "answer" : 1,
             "alternatives":[
-                "ggggggg",
-                "eeeeeeeeee",
-                "qqqqqqqqqqq",
-                "wwwwwwwww"
+                "Ca1 = 0,5 ; Ca2 = 0,5 ; X1 = 0,7 ; X2 = 0,3",
+                "Ca1 = 1 ; Ca2 = 0 ; X1 = 0 ; X2 = 1",
+                "Ca1 = 0,4 ; Ca2 = 0,6 ; X1 = 0,1 ; X2 = 0,9",
+                "Ca1 = 0,8 ; Ca2 = 0,2 ; X1 = 0,8 ; X2 = 0,2"
             ]
         }      
     ],
