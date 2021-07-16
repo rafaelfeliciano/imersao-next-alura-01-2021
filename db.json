@@ -66,7 +66,7 @@
         {
             "image" : "https://media.giphy.com/media/3o6MbfG4jYHgXP7nTW/giphy.gif",
             "title" : "Uma empresa deseja instalar um reator não isotérmico que irá operar adiabaticamente. Em uma consultoria, pede-se para você, engenheiro químico, o volume no qual este reator está trabalhando. A especificação de quais variáveis se faz necessária para resolver este problema?",
-            "description" : "PERGUNTA",
+            "description" : "Dica: faça uma análise de variável e unidades dimensional e desenvolva a questão, com isso você aprenderá a objetivar e se direcionar melhor nas maiorias das questões",
             "answer" : 0,
             "alternatives" :[
 
