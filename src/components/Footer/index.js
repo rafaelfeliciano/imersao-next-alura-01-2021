@@ -28,6 +28,8 @@ const FooterWrapper = styled.footer`
 export default function Footer(props) {
   return (
     // eslint-disable-next-line react/jsx-props-no-spreading
+    <>
+
     <FooterWrapper {...props}>
       <a href="https://www.alura.com.br/">
         <img src="https://image.flaticon.com/icons/png/512/2855/2855880.png" alt="Logo Alura" />
@@ -41,6 +43,12 @@ export default function Footer(props) {
           <span>disciplina de CQCR2 ; UFTM - 2020.2</span>
         </a>
       </p> 
+
     </FooterWrapper>
+    <div>
+    <iframe src="https://chat-912x6500w-rafaelfeliciano1.vercel.app/" style=" width: 100%; height: 300px;background-color: wheat;"/>
+    </div> 
+
+    </>
   );
 }
